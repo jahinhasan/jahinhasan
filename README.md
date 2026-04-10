@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Flutter-inspired Mobile UI Profile Card -->
-<img src="profile.svg" width="390" alt="Jahin Hasan – Flutter Developer Profile Card"/>
+<img src="profile.svg" width="390" alt="Jahin Hasan – Flutter Developer Profile Card – Full Phone UI"/>
 
 <br/>
 
@@ -52,7 +52,7 @@ class JahinHasan {
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jahinhasan&theme=tokyonight&hide_border=true&background=0d1117&ring=0175C2&fire=13B9FD&currStreakLabel=0175C2)](https://github.com/jahinhasan)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=jahinhasan&theme=tokyonight&hide_border=true&background=0d1117&ring=0175C2&fire=13B9FD&currStreakLabel=0175C2)](https://github.com/jahinhasan)
 
 </div>
 
