@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390">
+  <defs>
+    <linearGradient id="g_flutter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0175C2"/>
+      <stop offset="100%" stop-color="#02569B"/>
+    </linearGradient>
+    <linearGradient id="g_hero" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#013f7a"/>
+      <stop offset="50%" stop-color="#0175C2"/>
+      <stop offset="100%" stop-color="#13B9FD"/>
+    </linearGradient>
+    <clipPath id="screen_clip">
+      <rect x="20" y="18" width="350" height="760" rx="30" ry="30"/>
+    </clipPath>
+    <filter id="card_shadow" x="-5%" y="-5%" width="115%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#00000018"/>
+    </filter>
+  </defs>
+
+  <!-- Phone outer glow -->
+  <rect x="0" y="0" width="390" height="844" rx="52" ry="52" fill="#0175C2" opacity="0.12"/>
+  <!-- Phone body -->
+  <rect x="3" y="3" width="384" height="838" rx="50" ry="50" fill="#1C1C1E"/>
+  <rect x="7" y="7" width="376" height="830" rx="47" ry="47" fill="none" stroke="#333" stroke-width="1"/>
+
+  <!-- Volume buttons (left) -->
+  <rect x="-2" y="158" width="5" height="35" rx="2.5" fill="#2C2C2E"/>
+  <rect x="-2" y="201" width="5" height="65" rx="2.5" fill="#2C2C2E"/>
+  <rect x="-2" y="274" width="5" height="65" rx="2.5" fill="#2C2C2E"/>
+  <!-- Power button (right) -->
+  <rect x="387" y="201" width="5" height="80" rx="2.5" fill="#2C2C2E"/>
+
+  <!-- Screen bezel -->
+  <rect x="19" y="17" width="352" height="762" rx="31" ry="31" fill="#050505"/>
+
+  <!-- Dynamic Island -->
+  <rect x="140" y="22" width="110" height="31" rx="15.5" fill="#1C1C1E"/>
+  <circle cx="232" cy="37.5" r="9" fill="#2A2A2C"/>
+  <circle cx="232" cy="37.5" r="5.5" fill="#050505"/>
+  <circle cx="234.5" cy="35.5" r="1.5" fill="#333" opacity="0.6"/>
+  <rect x="148" y="34" width="28" height="7" rx="3.5" fill="#2A2A2C"/>
+
+  <!-- ===== SCREEN CONTENT ===== -->
+  <g clip-path="url(#screen_clip)">
+
+    <!-- Background -->
+    <rect x="20" y="18" width="350" height="760" fill="#EEF2F7"/>
+
+    <!-- STATUS BAR -->
+    <rect x="20" y="18" width="350" height="48" fill="#013f7a"/>
+    <text x="45" y="42" font-family="Helvetica Neue,Arial,sans-serif" font-size="15" font-weight="700" fill="white">9:41</text>
+    <!-- Signal bars -->
+    <rect x="292" y="32" width="4" height="8"  rx="1" fill="white"/>
+    <rect x="298" y="28" width="4" height="12" rx="1" fill="white"/>
+    <rect x="304" y="24" width="4" height="16" rx="1" fill="white"/>
+    <!-- WiFi -->
+    <path d="M318 41 Q323 35 328 41" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M314 45 Q323 31 332 45" stroke="white" stroke-width="2"   fill="none" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="323" cy="44" r="2.5" fill="white"/>
+    <!-- Battery -->
+    <rect x="337" y="29" width="22" height="12" rx="3"   fill="none" stroke="white" stroke-width="1.5"/>
+    <rect x="359" y="33" width="4"  height="4"  rx="1.5" fill="white"/>
+    <rect x="338.5" y="30.5" width="17" height="9" rx="2" fill="white"/>
+
+    <!-- APP BAR -->
+    <rect x="20" y="66" width="350" height="56" fill="url(#g_flutter)"/>
+    <circle cx="60"  cy="94" r="45" fill="rgba(255,255,255,0.05)"/>
+    <circle cx="330" cy="94" r="60" fill="rgba(255,255,255,0.05)"/>
+    <!-- Hamburger -->
+    <rect x="36" y="81" width="22" height="2.5" rx="1.25" fill="white"/>
+    <rect x="36" y="88" width="22" height="2.5" rx="1.25" fill="white"/>
+    <rect x="36" y="95" width="15" height="2.5" rx="1.25" fill="white"/>
+    <!-- Title -->
+    <text x="195" y="100" font-family="Helvetica Neue,Arial,sans-serif" font-size="20" font-weight="800" fill="white" text-anchor="middle" letter-spacing="0.5">Portfolio</text>
+    <!-- 3-dot menu -->
+    <circle cx="348" cy="88" r="13" fill="rgba(255,255,255,0.15)"/>
+    <circle cx="343" cy="88" r="2" fill="white"/>
+    <circle cx="349" cy="88" r="2" fill="white"/>
+    <circle cx="355" cy="88" r="2" fill="white"/>
+
+    <!-- HERO GRADIENT BG -->
+    <rect x="20" y="122" width="350" height="98" fill="url(#g_hero)"/>
+    <!-- Decorative bubbles -->
+    <circle cx="48"  cy="148" r="58" fill="rgba(255,255,255,0.05)"/>
+    <circle cx="352" cy="195" r="72" fill="rgba(255,255,255,0.05)"/>
+    <circle cx="305" cy="128" r="36" fill="rgba(255,255,255,0.07)"/>
+    <circle cx="88"  cy="205" r="28" fill="rgba(255,255,255,0.05)"/>
+
+    <!-- White/gray area starts (avatar straddles the boundary) -->
+    <rect x="20" y="220" width="350" height="558" fill="#EEF2F7"/>
+
+    <!-- AVATAR -->
+    <circle cx="195" cy="220" r="57" fill="url(#g_flutter)" opacity="0.22"/>
+    <circle cx="195" cy="220" r="52" fill="white"/>
+    <circle cx="195" cy="220" r="48" fill="url(#g_flutter)"/>
+    <text x="195" y="233" font-family="Helvetica Neue,Arial,sans-serif" font-size="34" font-weight="900" fill="white" text-anchor="middle">JH</text>
+    <!-- Online badge -->
+    <circle cx="232" cy="257" r="14" fill="white"/>
+    <circle cx="232" cy="257" r="11" fill="#4CAF50"/>
+    <polyline points="227,257 230,261 238,253" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- NAME CARD -->
+    <rect x="28" y="280" width="334" height="88" rx="18" fill="white" filter="url(#card_shadow)"/>
+    <rect x="28" y="280" width="334" height="88" rx="18" fill="none" stroke="#DDE5F0" stroke-width="1"/>
+    <text x="195" y="312" font-family="Helvetica Neue,Arial,sans-serif" font-size="21" font-weight="800" fill="#0175C2" text-anchor="middle">Jahin Hasan</text>
+    <text x="195" y="333" font-family="Helvetica Neue,Arial,sans-serif" font-size="12.5" fill="#555" text-anchor="middle">Flutter Dev  ·  Mobile Engineer  ·  CS Student</text>
+    <text x="148" y="357" font-family="Arial,sans-serif" font-size="11.5" fill="#888" text-anchor="middle">📍 Bangladesh</text>
+    <circle cx="195" cy="353" r="3.5" fill="#4CAF50"/>
+    <text x="238" y="357" font-family="Arial,sans-serif" font-size="11.5" fill="#4CAF50" text-anchor="middle">Open to Work</text>
+
+    <!-- STATS ROW -->
+    <rect x="28" y="378" width="334" height="64" rx="18" fill="white" filter="url(#card_shadow)"/>
+    <rect x="28" y="378" width="334" height="64" rx="18" fill="none" stroke="#DDE5F0" stroke-width="1"/>
+    <!-- Repos -->
+    <text x="83"  y="406" font-family="Helvetica Neue,Arial,sans-serif" font-size="22" font-weight="800" fill="#0175C2" text-anchor="middle">18+</text>
+    <text x="83"  y="425" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Repos</text>
+    <!-- Dividers -->
+    <rect x="139" y="392" width="1.5" height="36" rx="0.75" fill="#DDE5F0"/>
+    <!-- Languages -->
+    <text x="195" y="406" font-family="Helvetica Neue,Arial,sans-serif" font-size="22" font-weight="800" fill="#0175C2" text-anchor="middle">10+</text>
+    <text x="195" y="425" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Languages</text>
+    <rect x="251" y="392" width="1.5" height="36" rx="0.75" fill="#DDE5F0"/>
+    <!-- Projects -->
+    <text x="307" y="406" font-family="Helvetica Neue,Arial,sans-serif" font-size="22" font-weight="800" fill="#0175C2" text-anchor="middle">5+</text>
+    <text x="307" y="425" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Projects</text>
+
+    <!-- SKILLS CARD -->
+    <rect x="28" y="452" width="334" height="138" rx="18" fill="white" filter="url(#card_shadow)"/>
+    <rect x="28" y="452" width="334" height="138" rx="18" fill="none" stroke="#DDE5F0" stroke-width="1"/>
+    <text x="46" y="477" font-family="Helvetica Neue,Arial,sans-serif" font-size="14" font-weight="800" fill="#0175C2">⚡ Skills &amp; Technologies</text>
+
+    <!-- Row 1: Flutter · Dart · Python · Java -->
+    <rect x="44"  y="486" width="72" height="26" rx="13" fill="#0175C2"/>
+    <text x="80"  y="503" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">🐦 Flutter</text>
+    <rect x="124" y="486" width="54" height="26" rx="13" fill="#00B4AB"/>
+    <text x="151" y="503" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">🎯 Dart</text>
+    <rect x="186" y="486" width="66" height="26" rx="13" fill="#3572A5"/>
+    <text x="219" y="503" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">🐍 Python</text>
+    <rect x="260" y="486" width="54" height="26" rx="13" fill="#B07219"/>
+    <text x="287" y="503" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">☕ Java</text>
+
+    <!-- Row 2: Flask · Firebase · JS · TS · Git -->
+    <rect x="44"  y="520" width="54" height="26" rx="13" fill="#444444"/>
+    <text x="71"  y="537" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">🌶 Flask</text>
+    <rect x="106" y="520" width="72" height="26" rx="13" fill="#FF6F00"/>
+    <text x="142" y="537" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">🔥 Firebase</text>
+    <rect x="186" y="520" width="42" height="26" rx="13" fill="#E8C53A"/>
+    <text x="207" y="537" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#333" text-anchor="middle">JS</text>
+    <rect x="236" y="520" width="42" height="26" rx="13" fill="#3178C6"/>
+    <text x="257" y="537" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">TS</text>
+    <rect x="286" y="520" width="46" height="26" rx="13" fill="#F05032"/>
+    <text x="309" y="537" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Git</text>
+
+    <!-- Row 3: PHP · C/C++ · Rust · HTML/CSS · MySQL -->
+    <rect x="44"  y="554" width="42" height="26" rx="13" fill="#777BB4"/>
+    <text x="65"  y="571" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">PHP</text>
+    <rect x="94"  y="554" width="54" height="26" rx="13" fill="#555555"/>
+    <text x="121" y="571" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">C/C++</text>
+    <rect x="156" y="554" width="50" height="26" rx="13" fill="#CE422B"/>
+    <text x="181" y="571" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Rust</text>
+    <rect x="214" y="554" width="74" height="26" rx="13" fill="#E34C26"/>
+    <text x="251" y="571" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">HTML/CSS</text>
+    <rect x="296" y="554" width="52" height="26" rx="13" fill="#00758F"/>
+    <text x="322" y="571" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">MySQL</text>
+
+    <!-- PROJECTS CARD -->
+    <rect x="28" y="600" width="334" height="118" rx="18" fill="white" filter="url(#card_shadow)"/>
+    <rect x="28" y="600" width="334" height="118" rx="18" fill="none" stroke="#DDE5F0" stroke-width="1"/>
+    <text x="46" y="624" font-family="Helvetica Neue,Arial,sans-serif" font-size="14" font-weight="800" fill="#0175C2">🚀 Featured Projects</text>
+
+    <!-- Project 1 -->
+    <rect x="42" y="632" width="308" height="38" rx="10" fill="#EEF2FF"/>
+    <rect x="42" y="632" width="5"   height="38" rx="2.5" fill="#0175C2"/>
+    <text x="56" y="648" font-family="Helvetica Neue,Arial,sans-serif" font-size="12" font-weight="700" fill="#1a1a2e">🎮 RPG: The Student Life</text>
+    <text x="56" y="663" font-family="Arial,sans-serif" font-size="10.5" fill="#666">Flutter game built with Dart · Mobile</text>
+    <rect x="283" y="637" width="58" height="18" rx="9" fill="#0175C2"/>
+    <text x="312" y="650" font-family="Arial,sans-serif" font-size="9.5" fill="white" text-anchor="middle">Flutter</text>
+
+    <!-- Project 2 -->
+    <rect x="42" y="678" width="308" height="38" rx="10" fill="#F0FFF4"/>
+    <rect x="42" y="678" width="5"   height="38" rx="2.5" fill="#4CAF50"/>
+    <text x="56" y="694" font-family="Helvetica Neue,Arial,sans-serif" font-size="12" font-weight="700" fill="#1a1a2e">🏨 Hotel Management System</text>
+    <text x="56" y="709" font-family="Arial,sans-serif" font-size="10.5" fill="#666">PHP · MySQL · HTML/CSS/JS · Full-stack</text>
+    <rect x="283" y="683" width="58" height="18" rx="9" fill="#4CAF50"/>
+    <text x="312" y="696" font-family="Arial,sans-serif" font-size="9.5" fill="white" text-anchor="middle">Web</text>
+
+    <!-- BOTTOM NAVIGATION -->
+    <rect x="20" y="718" width="350" height="60" fill="white"/>
+    <rect x="20" y="718" width="350" height="1"  fill="#E0E8F5"/>
+    <!-- Active indicator for Home -->
+    <rect x="45" y="718" width="38" height="3" rx="1.5" fill="#0175C2"/>
+
+    <!-- Home (active) -->
+    <text x="64"  y="743" font-family="Arial,sans-serif" font-size="22" text-anchor="middle">🏠</text>
+    <text x="64"  y="762" font-family="Helvetica Neue,Arial,sans-serif" font-size="9.5" font-weight="700" fill="#0175C2" text-anchor="middle">Home</text>
+    <!-- Projects -->
+    <text x="151" y="743" font-family="Arial,sans-serif" font-size="22" text-anchor="middle">📁</text>
+    <text x="151" y="762" font-family="Arial,sans-serif" font-size="9.5" fill="#AAA" text-anchor="middle">Projects</text>
+    <!-- Skills -->
+    <text x="239" y="743" font-family="Arial,sans-serif" font-size="22" text-anchor="middle">⚡</text>
+    <text x="239" y="762" font-family="Arial,sans-serif" font-size="9.5" fill="#AAA" text-anchor="middle">Skills</text>
+    <!-- Contact -->
+    <text x="326" y="743" font-family="Arial,sans-serif" font-size="22" text-anchor="middle">📬</text>
+    <text x="326" y="762" font-family="Arial,sans-serif" font-size="9.5" fill="#AAA" text-anchor="middle">Contact</text>
+
+    <!-- Safe area / home indicator -->
+    <rect x="20"  y="778" width="350" height="18"  fill="white"/>
+    <rect x="145" y="784" width="100" height="4"   rx="2" fill="#CCC" opacity="0.7"/>
+
+  </g>
+
+  <!-- Lens shine -->
+  <ellipse cx="230" cy="31" rx="3" ry="4" fill="rgba(255,255,255,0.28)" opacity="0.5"/>
+</svg>
